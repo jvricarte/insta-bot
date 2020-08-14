@@ -31,10 +31,21 @@ class InstagramBot:
         password_element.send_keys(self.password)
         time.sleep(3)
         password_element.send_keys(Keys.RETURN)
-        time.sleep(5)
+        time.sleep(3)
+        self.curtir_fotos_de('astronomiaeciencia')
+
+
+        def curtir_fotos_de(self, perfil):
+            driver = self.driver
+            driver.get("https://www.instagram.com/"+ perfil +"/")
+            followers = driver.find_element_by_class_name('-nal3 ')
+            followers.click()
+
+
+        
 
 
 
 # Entre com o usuário e senha aqui
-instaBot = InstagramBot("new_toniano", "jvr851@")
+instaBot = InstagramBot("usuario", "senha")
 instaBot.login()

@@ -1,0 +1,66 @@
+1597409744067	geckodriver	INFO	Listening on 127.0.0.1:53149
+1597409747258	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ACER\\AppData\\Local\\Temp\\rust_mozprofile6n8BUa"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597409761878	Marionette	INFO	Listening on port 53158
+1597409763457	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: "getSources failed. Connection may have closed: Error: Connection closed, pending request to server0.conn0.child2/thread21, type sources failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:256:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\ngetSources@resource://devtools/client/fronts/thread.js:188:34\n_ensureAllSourcesPopulated/<@resource://devtools/client/framework/source-map-url-service.js:472:53\n_ensureAllSourcesPopulated/sourcesLoading<@resource://devtools/client/framework/source-map-url-service.js:483:13\n_ensureAllSourcesPopulated@resource://devtools/client/framework/source-map-url-service.js:485:9\nsubscribeByID@resource://devtools/client/framework/source-map-url-service.js:74:10\nupdateSourceLink@resource://devtools/client/inspector/rules/views/rule-editor.js:360:61\n_create@resource://devtools/client/inspector/rules/views/rule-editor.js:135:10\nRuleEditor@resource://devtools/client/inspector/rules/views/rule-editor.js:79:8\n_createEditors@resource://devtools/client/inspector/rules/rules.js:1197:23\n_populate/<@resource://devtools/client/inspector/rules/rules.js:975:37\n"
+1597410057582	Marionette	INFO	Stopped listening on port 53158
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1597410064616	geckodriver	INFO	Listening on 127.0.0.1:53264
+1597410067651	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ACER\\AppData\\Local\\Temp\\rust_mozprofile9QvcL9"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597410071901	Marionette	INFO	Listening on port 53272
+1597410071911	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597410377968	Marionette	INFO	Stopped listening on port 53272
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1597410381686	geckodriver	INFO	Listening on 127.0.0.1:53341
+1597410384736	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ACER\\AppData\\Local\\Temp\\rust_mozprofileczYcPy"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597410389986	Marionette	INFO	Listening on port 53349
+1597410390460	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597410505145	Marionette	INFO	Stopped listening on port 53349
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+emp\\rust_mozprofileilN8IA"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597410497613	Marionette	INFO	Listening on port 53422
+1597410498072	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597410631506	Marionette	INFO	Stopped listening on port 53422
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1597410636485	geckodriver	INFO	Listening on 127.0.0.1:53483
+1597410639518	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ACER\\AppData\\Local\\Temp\\rust_mozprofile42e1XC"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597410643218	Marionette	INFO	Listening on port 53491
+1597410644732	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:409:10
+
