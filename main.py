@@ -31,7 +31,7 @@ def login(username, password):
 def like_pics_of(ig):
     driver.get("https://www.instagram.com/"+ ig +"/")
     time.sleep(3)
-    followers = driver.find_element_by_class_name('-nal3 ')
+    followers = driver.find_element_by_xpath(f'//a[@href="/{ig}/followers/"]')
     time.sleep(1)
     followers.click()
 
