@@ -56,6 +56,6 @@ def like_pics_of(hashtag):
 
 
 # Insira abaixo o seu usuário e senha
-login('new_toniano', 'jvr851@')
+login('usuario', 'senha')
 # Insira a hashtag que deseja
-like_pics_of('astronomia')
+like_pics_of('hashtag')
